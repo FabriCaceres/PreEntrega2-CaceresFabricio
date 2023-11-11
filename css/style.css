@@ -9,6 +9,7 @@ header{
     height: 150px;
     background-color: #5F634F;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 header #logo{
@@ -18,6 +19,7 @@ header #logo{
 }
 header #banner{
     opacity: 60%;
+    width: 45%;
     height: 150px;
 }
 /* barra navegacion */
@@ -45,21 +47,11 @@ nav ul li{
     background-color: #DBEFBC;
     box-shadow: 0px 3px 4px rgb(105, 99, 99);
 }
-/* menu hamburguesa */
-.navmenu {
+/* Menu mobile */
+#check_menu, header label{
+    display: none;
 }
-.navbar {
-}
-.menamb {
-}
-.labe_hamburguesa {
-}
-.ulmenu {
-}
-.menulink {
-}
-.limenu {
-}
+
 /* titulo */
 h1{
     font-family: 'Squada One', sans-serif;
@@ -248,7 +240,7 @@ footer{
     filter: opacity(70%);
 }
 .imgredes img:hover{
-        filter:opacity(100%);
+    filter:opacity(100%);
 }
 .textredes ul li p{
     display: flex;
@@ -324,21 +316,31 @@ footer{
     color: #FFFFFF;
 }
 /* Media Queries */
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width : 768px) {
+    header label{
+        display: flex;
+        margin-right: 10px;
+    }
     header #banner{
         display: none;
     }
+    header label i{
+        font-size: 200%;
+        color: #DBEFBC;
+        margin-right: 10px;
+    }
     header{
+        width: 100%;
         height: 100px;
         margin: 0px;
         padding: 0px;
         display: flex;
-        justify-content: start;
+        justify-content: space-between;
     }
     header #logo{
         height: 100px;
         width: 100px;
-        margin: 0px;
+        margin-left: 10px;
         padding: 0px;
     }
     nav{
@@ -375,7 +377,7 @@ footer{
         display: grid;
         grid-template-rows: 170px;
         grid-column-gap: 50px;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
     }
     .item2{
         text-align: center;
