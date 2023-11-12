@@ -285,7 +285,7 @@ footer{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0,2);
     border-radius: 20px;
     text-align: center;
-    width: 500px;
+    width: 80%;
 }
 .input-group{
     display: flex;
@@ -294,7 +294,7 @@ footer{
 }
 .formcont label{
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 100%;
     margin-bottom: 15px;
 }
 .formcont input, textarea{
