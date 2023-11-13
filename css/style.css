@@ -112,6 +112,63 @@ h1{
     align-items: center;
     justify-content: center;
 }
+/* box pagina ventas/alquileres */
+.conteiner_card {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 1rm 4%;
+    height: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30px;
+}
+.cuadros {
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
+}
+.cuadros .cuadros_img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    object-fit: cover;
+}
+.cuadros .cuadros_img img{
+    height: 400px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.cuadros .cuadros_titulo {
+    font-family: 'Squada One', sans-serif;
+    font-size: 150%;
+    color: #5f634F;
+    margin-top: 0px;
+    padding: 0 5px;
+    text-align: center;
+}
+.cuadros .cuadros_container {
+    width: 100%;
+    padding: 10px;
+    font-size: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+.cuadros .cuadros_container p{
+    margin-top: 10px;
+}
+.cuadros .cuadros_container a{
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    font-size: 120%;
+    font-weight: bold;
+} 
 /* contenedor de informacion (grid) */
 .grid-container{
     background-color: #9BC4CB;
@@ -176,8 +233,6 @@ footer{
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-/* box pagina ventas/alquileres */
-
 /* pseudoclases */
     .imgfoot img:hover{
         position:relative;
@@ -425,5 +480,16 @@ footer{
     }
     .redes{
         display: none;
+    }
+    .conteiner_card {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        padding: 1rm 4%;
+        height: 100%;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        margin-bottom: 30px;
     }
 }
