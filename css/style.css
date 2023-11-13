@@ -84,6 +84,7 @@ h1{
     margin-left: 6%;
     margin-right: 6%;
     font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
 }
 .ing .boxing h3, h2{
     margin-top: 10px;
@@ -93,7 +94,7 @@ h1{
 }
 .ing .boxing{
     width: 48%;
-    height: 120vh;
+    height: 900px;
     display:flex;
     justify-content: flex-start;
     align-items: center;
@@ -111,7 +112,6 @@ h1{
     display:flex;
     align-items: flex-end;
     justify-content: center;
-    bottom: 110vh;
 }
 /* box pagina ventas/alquileres */
 .conteiner_card {
