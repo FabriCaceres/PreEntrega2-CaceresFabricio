@@ -366,25 +366,26 @@ footer{
         text-align: center;
         width: 80%;
     }
+    label{
+        font-size: 15px;
+        font-weight: 100%;
+        margin-bottom: 15px;
+    }
+    input, textarea{
+        font-family: 'Montserrat';
+        padding: 17px 25px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        background-color:#CFEBDF;
+        border: 2px solid #cfcdcd;
+        color: #283629;
+        outline: none;
+    }
 }
 .input-group{
     display: flex;
     flex-direction: column;
     text-align: left;
-}
-.formcont label{
-    font-size: 15px;
-    font-weight: 100%;
-    margin-bottom: 15px;
-}
-.formcont input, textarea{
-    padding: 17px 25px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    background-color:#CFEBDF;
-    border: 2px solid #cfcdcd;
-    color: #283629;
-    outline: none;
 }
 .formcont input::placeholder, textarea::placeholder{
     color: #6b6969;

@@ -393,20 +393,13 @@ footer {
   text-align: center;
   width: 80%;
 }
-
-.input-group {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
 .formcont label {
   font-size: 15px;
   font-weight: 100%;
   margin-bottom: 15px;
 }
-
-.formcont input, textarea {
+.formcont input, .formcont textarea {
+  font-family: "Montserrat";
   padding: 17px 25px;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -414,6 +407,12 @@ footer {
   border: 2px solid #cfcdcd;
   color: #283629;
   outline: none;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 .formcont input::placeholder, textarea::placeholder {
