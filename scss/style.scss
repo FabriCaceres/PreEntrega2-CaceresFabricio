@@ -140,6 +140,7 @@ h2{
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 30px;
+    
 }
 .cuadros {
     height: 800px;
@@ -148,6 +149,10 @@ h2{
     justify-content: space-between;
     border-radius: 5px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
+    &:hover{
+        transform: scale(1.01);
+        transition: 0.5s;
+    }
     .btn-enlace{
         background-color: rgb(141, 194, 224);
         display: flex;
