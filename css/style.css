@@ -149,6 +149,7 @@ h2 {
 }
 
 .cuadros {
+  width: 100%;
   height: 800px;
   display: flex;
   flex-direction: column;
@@ -161,7 +162,9 @@ h2 {
   transition: 0.5s;
 }
 .cuadros .btn-enlace {
-  background-color: rgb(141, 194, 224);
+  background-image: linear-gradient(to left top, #9bc4cb, #a6ced0, #b3d8d4, #c1e2d9, #cfebdf);
+  background-position: left;
+  background-size: 400%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,13 +172,14 @@ h2 {
   width: 100%;
   border-radius: 0 0 5px 5px;
 }
+.cuadros .btn-enlace:hover {
+  transition: 1s;
+  background-position: right;
+}
 .cuadros .btn-enlace a {
   color: white;
   font-size: 120%;
   font-family: "Montserrat", sans-serif;
-}
-.cuadros .btn-enlace a:hover {
-  color: black;
 }
 .cuadros .cuadros_img {
   border-radius: 5px 5px 0 0;
@@ -509,6 +513,7 @@ footer {
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    transition: height 2s;
   }
   .navbar1 {
     display: none;
@@ -615,6 +620,9 @@ footer {
     font-family: "Montserrat", sans-serif;
     font-size: 100%;
     margin-bottom: 20px;
+  }
+  .conteiner_card .cuadros {
+    height: 850px;
   }
 }
 @media only screen and (max-width: 500px) {

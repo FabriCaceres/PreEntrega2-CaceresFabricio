@@ -36,6 +36,7 @@
         flex-direction: column;
         justify-content: start;
         align-items: center;
+        transition: height 2s;
     }
     .navbar1{
         display: none;
@@ -141,6 +142,11 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 100%;
         margin-bottom: 20px;
+    }
+}
+.conteiner_card{
+    .cuadros{
+        height: 850px;
     }
 }
 }
