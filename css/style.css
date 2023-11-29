@@ -137,10 +137,9 @@ h2 {
 .conteiner_card {
   margin-top: 20px;
   font-family: "Montserrat", sans-serif;
+  width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-  width: 90%;
-  padding: 1rm 4%;
   height: 100%;
   display: grid;
   gap: 10px;
@@ -158,7 +157,7 @@ h2 {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.45);
 }
 .cuadros:hover {
-  transform: scale(1.01);
+  transform: scale(1.5);
   transition: 0.5s;
 }
 .cuadros .btn-enlace {

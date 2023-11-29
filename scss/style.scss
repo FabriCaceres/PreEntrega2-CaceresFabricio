@@ -131,16 +131,14 @@ h2{
 .conteiner_card {
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
+    width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    width: 90%;
-    padding: 1rm 4%;
     height: 100%;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 30px;
-    
 }
 .cuadros {
     width: 100%;

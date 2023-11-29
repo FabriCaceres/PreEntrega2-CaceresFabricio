@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
 <!--enlace estilo css-->
     <link rel="stylesheet" href="./css/style.css">
+<!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- icono -->
     <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
 <!-- fuentes texto-->
@@ -54,10 +56,13 @@
     <h1>ULTIMOS INGRESOS</h1>
     <main>
         <div class="ing">
-            <div class="boxing">
+            <div class="boxing" data-aos="fade-right"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500">
                 <h2>Casas/Deptos en venta</h2>
 <!-- Carrusel 1 -->
-                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" >
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="./images/casaindex1.jpg" class="d-block w-100" alt="...">
@@ -100,7 +105,10 @@
                 </ul>
             </div>
 <!-- Carrusel 2 -->
-            <div class="boxing">
+            <div class="boxing" data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500">
                 <h2>Casas/Deptos en alquiler</h2>
                 <div id="carouselExampleCaptions" class="carousel slide">
                     <div class="carousel-indicators">
@@ -181,5 +189,10 @@
         <span>Inmobiliaria House 2023 - Fabricio Cáceres</span>
     </footer>
     <script src="./js/bootstrap.js"></script>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
