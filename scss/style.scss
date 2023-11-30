@@ -150,9 +150,6 @@ h2{
     justify-content: space-between;
     border-radius: 5px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
-    &:hover{
-        transform: scale(1.5);
-        transition: 0.5s;
     }
     .btn-enlace{
         background-image: linear-gradient(to left top, #9bc4cb, #a6ced0, #b3d8d4, #c1e2d9, #cfebdf);
