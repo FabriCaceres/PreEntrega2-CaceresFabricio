@@ -8,6 +8,8 @@
     <meta name="keywords" content="quienes somos, nosotros, informacion">
 <!--enlace estilo css-->
     <link rel="stylesheet" href="../css/style.css">
+<!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- icono -->
     <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
 <!-- fuentes -->
@@ -55,10 +57,10 @@
     <h1>QUIENES SOMOS</h1>
     <main>
         <div class="present">
-            <div class="present_img">
-                <img src="../images/contacto.jpg" alt="">
+            <div class="present_img" data-aos="zoom-in">
+                <img src="../images/contacto.jpg" alt="quienes somos">
             </div>
-            <div class="present_cont">
+            <div class="present_cont" data-aos="zoom-in">
                 <h2>House Inmobiliaria</h2>
                 <p>Somos una firma nacida en la ciudad de Santa Fe para atender el mercado de Bienes Raices en su lugar de asentamiento y la región, con el entusiasmo de una empresa joven y con experiencia en el mercado inmobiliario</p>
                     
@@ -75,7 +77,7 @@
 <!--Informacion-->
     <div class="grid-container">
         <div class="item1">
-            <a href="../index.html"><img src="../images/logo1.png" alt=""></a>
+            <a href="../index.html"><img src="../images/logo1.png" alt="logo"></a>
         </div>
         <div class="item2">
             <p>House Inmobiliaria es una firma nacida en la ciudad de Santa Fe para atender el mercado de Bienes Raices en su lugar de asentamiento y la región, con el entusiasmo de una empresa joven y con experiencia en el mercado inmobiliario.</p>
@@ -100,5 +102,10 @@
         </div>
         <span>Inmobiliaria House 2023 - Fabricio Cáceres</span>
     </footer>
+<!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

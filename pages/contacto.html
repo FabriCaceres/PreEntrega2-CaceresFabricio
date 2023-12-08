@@ -8,6 +8,8 @@
 <meta name="keywords" content="correo, informacion, precio, novedades">
 <!--enlace estilo css-->
     <link rel="stylesheet" href="../css/style.css">
+<!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- icono -->
     <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
 <!-- fuentes -->
@@ -58,8 +60,9 @@
     <h1>CONTACTO</h1>
     <main>
         <div class="contact">
-            <div class="formcont">
-                <form action="">
+            <div class="formcont"  data-aos="fade-up"
+            data-aos-duration="3000">
+                <form action="#">
                     <h2>Escribenos</h2>
                     <p>Escríbanos mediante nuestro formulario de contacto o bien directamente a nuestra casilla de correo.</p>
                     <div class="input-group">
@@ -76,7 +79,8 @@
                 </form>
                 
             </div>
-            <div class="map">
+            <div class="map"  data-aos="fade-up"
+            data-aos-duration="3000">
                 <h2>Ubicacion</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2401.339581260468!2d-60.715189296944054!3d-31.66102813643691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1698956646833!5m2!1ses-419!2sar" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <ul>
@@ -85,7 +89,8 @@
                     <li><i class='bx bxs-phone'></i>342 - 123 4567</li>
                 </ul>
             </div>
-            <div class="redes">
+            <div class="redes"  data-aos="fade-up"
+            data-aos-duration="3000">
                 <h2>!Siguenos en nuestras redes!</h2>
                     <div class="imgredes">
                         <div class="boxrds">
@@ -115,7 +120,7 @@
 <!--Informacion-->
     <div class="grid-container">
         <div class="item1">
-            <a href="../index.html"><img src="../images/logo1.png" alt=""></a>
+            <a href="../index.html"><img src="../images/logo1.png" alt="logo"></a>
         </div>
         <div class="item2">
             <p>House Inmobiliaria es una firma nacida en la ciudad de Santa Fe para atender el mercado de Bienes Raices en su lugar de asentamiento y la región, con el entusiasmo de una empresa joven y con experiencia en el mercado inmobiliario.</p>
@@ -140,5 +145,10 @@
         </div>
         <span>Inmobiliaria House 2023 - Fabricio Cáceres</span>
     </footer>
+<!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
