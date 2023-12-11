@@ -145,10 +145,17 @@
     .ing{
         .boxing{
             width: 100%;
-            height: 800px;
+            height: 900px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             .desc{
                 width: 100%;
                 height: 250px;
+            }
+            .btna{
+                margin-top: 10px;
+                margin-bottom: 10px;
             }
     }
     }

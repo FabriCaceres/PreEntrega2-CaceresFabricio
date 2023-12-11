@@ -627,11 +627,18 @@ footer {
 @media only screen and (max-width: 600px) {
   .ing .boxing {
     width: 100%;
-    height: 800px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .ing .boxing .desc {
     width: 100%;
     height: 250px;
+  }
+  .ing .boxing .btna {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .conteiner_card {
     margin-top: 20px;
