@@ -51,15 +51,11 @@
         flex-direction: column;
         .boxing{
             width: 100%;
-            height: 50%;
-            overflow: auto;
+            height: 900px;
             display:flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            a{
-                margin-bottom: 5%;
-            }
         }
     }
     .grid-container{
@@ -145,17 +141,16 @@
     }
 }
 }
-@media only screen and (max-width : 500px){
+@media only screen and (max-width : 600px){
     .ing{
         .boxing{
-            p{
+            width: 100%;
+            height: 800px;
+            .desc{
+                width: 100%;
                 height: 250px;
             }
-            a{
-                width: 40%;
-            }
-        }
-
+    }
     }
     .conteiner_card {
         margin-top: 20px;
