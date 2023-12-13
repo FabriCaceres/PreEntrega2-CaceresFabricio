@@ -51,11 +51,12 @@
         flex-direction: column;
         .boxing{
             width: 100%;
-            height: 900px;
+            height: 100%;
             display:flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            margin-bottom: 5%;
         }
     }
     .grid-container{
@@ -173,7 +174,7 @@
         margin-bottom: 30px;
     }
     .cuadros {
-        height: 800px;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -197,7 +198,7 @@
         .cuadros_img {
             border-radius: 5px 5px 0 0;
             width: 100%;
-            height: 35%;
+            height: 40%;
             object-fit: cover;
             img{
                 height: 100%;
