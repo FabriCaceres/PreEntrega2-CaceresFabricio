@@ -277,6 +277,7 @@ h2 {
   flex-direction: column;
 }
 .conteiner_card .cuadros_container p {
+  font-family: "Montserrat", sans-serif;
   font-size: 100%;
   margin-top: 20px;
 }
